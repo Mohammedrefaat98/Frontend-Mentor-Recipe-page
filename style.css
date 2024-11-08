@@ -109,3 +109,6 @@ ul,ol{
     color: #8c5e3c;
     font-weight: bold;
 }
+tr{
+    border-bottom:1px solid rgb(201, 201, 201);
+}
