@@ -12,7 +12,7 @@ html,body{
     flex-direction: column;
     border-radius: 1.5vw;
     margin: auto;
-    width: 50%;
+    width: clamp(50%,768px,80%);
     background-color: white;
     padding: 3%;
     margin: 10vh 0;
