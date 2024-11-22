@@ -4,7 +4,6 @@ html,body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    font-size: calc(0.3rem + 1vw);
 }
 
 .container{
@@ -16,6 +15,7 @@ html,body{
     background-color: white;
     padding: 3%;
     margin: 10vh 0;
+    font-size: calc(0.3rem + 1vw);
 }
 img{
     border-radius: 1.5vw;
@@ -118,3 +118,17 @@ tr{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 768px) {
+    .container {
+      font-size: calc(0.3rem + 2vw);
+    }
+    .intro h1{
+        font-size: calc(0.8rem + 4vw);
+    }
+    
+    .ingredients h1{
+        font-size: calc(0.8rem + 4vw);
+    }
+    
+  }
