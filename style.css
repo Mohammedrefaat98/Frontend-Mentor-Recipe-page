@@ -1,45 +1,44 @@
-body{
+html,body{
     background-color:hsl(30, 54%, 90%);
-    margin: 18vh 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(0.3rem + 1vw);
 }
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+
 .container{
+    display: flex;
+    flex-direction: column;
     border-radius: 1.5vw;
     margin: auto;
     width: 50%;
     background-color: white;
     padding: 3%;
-    display: block;
+    margin: 10vh 0;
 }
 img{
     border-radius: 1.5vw;
 }
 .intro h1{
-    font-size: 4em;
     color: #2E2C2B;
+    font-weight: 500;
+    font-size: calc(0.8rem + 2vw);
 }
 
 .ingredients h1{
-    font-size: 3em;
+    font-weight: 500;
+    font-size: calc(0.8rem + 2vw);
     color: #7F503D;
 }
 
 .old-roman{
-    font-family: 'Old Roman W00 Bold';
+    font-family: "Young Serif", serif;
 }
 
-p{
-    font-size: 1em;
-}
 
-.segoe{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.outfit{
+    font-family: 'Outfit';
 }
 
 .card{
@@ -96,7 +95,6 @@ ul,ol{
 
 .nutrition-table td {
     padding: 10px;
-    font-size: 14px;
     text-align: left;
     color: #333;
 }
@@ -111,4 +109,12 @@ ul,ol{
 }
 tr{
     border-bottom:1px solid rgb(201, 201, 201);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
