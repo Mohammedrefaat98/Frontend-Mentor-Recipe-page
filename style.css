@@ -58,6 +58,11 @@ ul,ol{
 .card ul{
     padding-left: 3em;
 }
+.ingredients{
+    border-bottom:1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+}
 .ingredients ul{
     padding-left: 1em;
 }
@@ -83,6 +88,8 @@ ul,ol{
 }
 .ingredients{
     border-bottom:1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
 }
 .ingredients:last-child{
     border-bottom:none;
@@ -91,6 +98,8 @@ ul,ol{
 .nutrition-table {
     width: 100%;
     border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
 }
 
 .nutrition-table td {
@@ -124,11 +133,11 @@ tr{
       font-size: calc(0.3rem + 2vw);
     }
     .intro h1{
-        font-size: calc(0.8rem + 4vw);
+        font-size: calc(0.8rem + 3vw);
     }
     
     .ingredients h1{
-        font-size: calc(0.8rem + 4vw);
+        font-size: calc(0.8rem + 3vw);
     }
     
   }
